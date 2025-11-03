@@ -1,0 +1,13 @@
+This file tells Git to ignore unnecessary files.
+
+Python cache
+pycache/*.pyc
+
+Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+VSCode files
+.vscode/
+
+Mac system files
+.DS_Store
