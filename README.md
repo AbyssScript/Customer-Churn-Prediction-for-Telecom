@@ -1,9 +1,13 @@
-Telco Customer Churn Prediction
+### Telco Customer Churn Prediction
 
 A machine learning project that predicts whether a telecom customer is likely to churn (leave the service) based on various features like contract type, payment method, tenure, and more.
 It also includes a Streamlit web app for easy prediction and visualization.
 
-Project Components
+**[You can access the live prediction app here!](https://customer-churn-prediction-for-telecom-gbjrggmoms5wgdjtcnrxdg.streamlit.app/)**
+
+
+
+**Project Components:**
 
 cust_churn_prediction.ipynb
 
@@ -23,7 +27,9 @@ customer_churn_model.pkl: The trained RandomForestClassifier model.
 
 encoders.pkl: The saved LabelEncoder objects used to process the categorical data.
 
-How to Run
+
+
+**How to Run**
 
 1.Clone this repository
 
@@ -38,12 +44,16 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
-📊 Dataset
+
+
+**Dataset**
 
 Dataset used: Telco Customer Churn from IBM sample datasets.
 It includes features like gender, tenure, payment method, and service usage details.
 
-🧰 Tech Stack
+
+
+**Tech Stack**
 
 Python
 
@@ -54,3 +64,4 @@ Scikit-learn
 Streamlit
 
 Matplotlib / SHAP (for model explainability)
+
